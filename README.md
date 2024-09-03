@@ -31,11 +31,15 @@ Finally, we provide two experiments on the kinematic data. First, we perform cla
 The Geolife dataset is available for download [here](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/). After downloading and unzipping the data, the highest folder (called Geolife Trajectories 1.3) should be placed in the same folder as the code, which should allow all code in this project to run normally and interact with the data with the expected behavior
 
 ##### Dependencies
+This project was run with Python version 3.10.12
+
 The following python libraries must be installed to run all the files in this project:
 - numpy
 - pandas
 - matplotlib
-- sklearn
+- scikit-learn
+
+See requirements.txt for versions.
 
 ##### Running the code
 All code for this project is in ipynb files. You can simply run them using "Run All," but the code blocks are separated so you may only run parts of it if you desire (for instance, if you don't want to perform the same data reductions on the data that we do).
